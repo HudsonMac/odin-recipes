@@ -1,7 +1,113 @@
-.test {
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
     color: white;
-    background-color: red;
-    font-size: 32px;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.box-4 {
+    padding: 1% 0;
+    margin: 20px 0;
+    background-color: #555;
+    color: #f4f4f4;
+    border: 3px black dotted;
+}
+
+.box-4 p {
+    margin: 0 5%;
+}
+
+.box-4 h2 {
+    text-align: left;
+    margin: 0 5%;
+    padding: 10px 0;
+    background-color: #555;
+    color: #f4f4f4;
+}
+
+.box-1 {
+    background-color: #515050;
+    color: white;
+    border: 3px rgb(0, 0, 0) dotted;
+    border-width: 3px;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.box-1 h1 {
     text-align: center;
     font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.box-1 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: 1px white solid;
+}
+
+.box-2 {
+    background-color: #555;
+    color: white;
+    border: 2px #515050 dotted;
+}
+
+.box-2 h2 {
+    text-align: left;
+    margin: 0 5%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.box-2 ul {
+    margin: 0 5%;
+    padding-bottom: 10px;
+}
+
+.box-2 li {
+    margin: 0 5%;
+    padding-bottom: 8px;
+    list-style: georgian;
+}
+
+.box-2 ol {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 10px;
+}
+
+.box-3 {
+    position: relative;
+}
+
+.box-3 button {
+    display: block;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    border-radius: 15px;
+    font-size: 20px;
+    padding: 15px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
