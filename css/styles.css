@@ -3,6 +3,11 @@
     margin: 0;
 }
 
+hr {
+    margin: 5px;
+    border: 1px white solid;
+}
+
 a {
     text-decoration: none;
     color: white;
